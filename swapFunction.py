@@ -1,5 +1,12 @@
 x = 5
 y = 10
-[x,y] = [y,x]
+print("before swap,value of x is :",x)
+print("before swap,value of y is :",y)
 
-print(x,y)
+temp = x
+print("value of temp is :",temp)
+x = y
+print("Value of x is :",x)
+y = temp
+print("Value of y is :",y)
+
