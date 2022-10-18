@@ -1,12 +1,9 @@
-x = 5
-y = 10
-print("before swap,value of x is :",x)
-print("before swap,value of y is :",y)
+from re import X
 
-temp = x
-print("value of temp is :",temp)
-x = y
-print("Value of x is :",x)
-y = temp
-print("Value of y is :",y)
 
+x=4
+y=6
+temp=x 
+x=y
+y=temp
+print(x,y)
